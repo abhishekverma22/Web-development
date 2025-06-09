@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banking System</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Vijay Mallya Bank</h1>
+      <p>Trust the Process. See Every Step.</p>
+    </nav>
+  </header>
+  <main>
+    <section id="container">
+      <div>
+        <label for="name" >Account name:</label>
+        <input type="text" id="user-name" placeholder="Enter Account  Holder Name">
+      </div>
+      <div>
+        <label for="amout">Enter Amout:</label>
+        <input type="number" id="amout" placeholder="Add Amout">
+      </div>
+      <div>
+        <label for="type">Select Type:</label>
+        <select  id="type">
+          <option value="deposit">Deposit</option>
+          <option value="withdrawal">Withdrawal</option>
+        </select>
+      </div>
+      <div>
+        <button onclick="done()">Done</button>
+      </div>
+      <p id="message"></p>
+
+    </section>
+  </main>
+  
+</body>
+</html>
