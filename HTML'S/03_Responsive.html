@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design</title>
+  <style>
+    body {
+      background-color: grey;
+    }
+
+    div {
+      text-align: center;
+      font-size: x-large;
+
+    }
+
+    div::after {
+      content: "Welcome  to the demo";
+    }
+
+
+    /* -----------------media query-------------- min-width */
+
+    /* @media (min-width: 900px) {
+      body {
+        background-color: black;
+      }
+
+      div::after {
+        content: "min-width is 900px ";
+        color: white;
+      }
+
+    }
+
+    @media (min-width: 1200px) {
+      body {
+        background: lightgoldenrodyellow;
+
+      }
+
+      div::after {
+        content: "1200px ";
+        color: black;
+      }
+    } */
+
+    /* -----------------media query-------------- max-width */
+
+    /* @media (max-width: 400px){
+      body{
+        background-color: red;
+      }
+    } */
+
+
+    /* ----------Break points-------- */
+
+    /* Extra small device (600px and down) */
+    @media only screen and(max-width :600px) {
+      body{
+        background-color: red;
+      }
+    }
+
+/*  small devices (portrait tablets and phones 600px and up)*/
+    @media only screen and (min-width: 600px) {
+      body{
+        background-color: green;
+      }
+    }
+
+/* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+      body{
+        background-color: yellow;
+      }
+    }
+
+
+    /*Large devices (laptop/ desktops, 992px and up) */
+    @media only screen and (min-width : 992px) {
+      body{
+        background-color: pink;
+      }
+    }
+
+    /* Extra large devices (large laptop and desktops, 1200px and up) */
+    @media only screen and (min-width:1200px) {
+      body{
+        background-color: orange;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div></div>
+  <div></div>
+  <div></div>
+
+</body>
+
+</html>

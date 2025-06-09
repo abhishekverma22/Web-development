@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>overflow and Z-index</title>
+  <style>
+    /* p {
+      border: 10px solid rebeccapurple;
+      height: 50px;
+      width: 500px;
+      overflow: auto;
+    } */
+
+    .one{
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      background-color: rgb(127, 255, 212);
+      top: 0;
+      z-index: 2;
+      border: 5px solid rgb(255, 0, 0);
+  
+    }
+    .two{
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      background-color: blue;
+      top: 3;
+      z-index: 3;
+    }
+
+
+
+
+  </style>
+</head>
+
+<body>
+  <!-- Overflow -->
+  <p style="color: green;">
+    Necessitatibus amet rerum harum asperiores dolor, aliquid ipsa quaerat quis ad placeat sapiente, fugit minima
+    Necessitatibus amet rerum harum asperiores dolor, aliquid ipsa quaerat quis ad placeat sapiente, fugit minima
+    accusamus illo deserunt magnam animi tempore. Est doloremque ipsam porro quo tenetur quod ut possimus!</p>
+
+    <div class="one"></div>
+    <div class="two"></div>
+
+</body>
+
+</html>
