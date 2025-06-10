@@ -29,4 +29,6 @@ function done() {
     }
   };
   message.innerText = `Hey ${name}, Current Amout is ${initialAmount}`
+
+  amout.value= ""
 };
